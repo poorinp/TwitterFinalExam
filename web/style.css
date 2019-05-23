@@ -1,0 +1,14 @@
+.tweet {
+    background: lightblue;
+    border-radius: 8px;
+    padding: 1em;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  body {
+    max-width: 800px;
+    margin: auto;
+  }
