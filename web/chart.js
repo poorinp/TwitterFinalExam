@@ -46,12 +46,6 @@ const socket = io()
 
 socket.on('status', status => {
   console.log(status)
-  if (status === 'cooling') {
-    title.innerText =
-      'Trade War Tweets Trend (Rate Limit Exceeded, cooling down for 1 min.)'
-  } else {
-    title.innerText = 'Trade War Tweets Trend'
-  }
 })
 
 socket.on('tweet', tweet => {
