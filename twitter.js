@@ -69,10 +69,10 @@ const listen = () => {
       status = 'listening';
       io.sockets.emit('status', 'listening');
       io.sockets.emit('tweet', event.text);
-      fs.appendFile("tweettttt.txt", JSON.stringify(event), function (err) {
-        if (err) throw err;
-        console.log('Saved!');
-      });
+      // fs.appendFile("tweettttt.txt", JSON.stringify(event), function (err) {
+      //   if (err) throw err;
+      //   console.log('Saved!');
+      // });
     }
   })
 
