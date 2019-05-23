@@ -1,0 +1,36 @@
+{
+  "name": "twittername",
+  "version": "1.0.0",
+  "description": "just final exam?",
+  "main": "twitter.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "firebase": "^6.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node twitter.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poorinp/TwitterFinalExam.git"
+  },
+  "keywords": [
+    "tradewar"
+  ],
+  "author": "Poorin Pichayamongkol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poorinp/TwitterFinalExam/issues"
+  },
+  "homepage": "https://github.com/poorinp/TwitterFinalExam#readme"
+}
